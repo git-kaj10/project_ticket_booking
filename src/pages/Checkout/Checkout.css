@@ -1,0 +1,35 @@
+.ghe {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+    background-color: rgb(78, 85, 92);
+    color: white;
+}
+
+.gheVip {
+    background-color: rgb(228, 160, 35);
+}
+
+.gheDaDat {
+    background-color: rgb(197, 50, 50);
+    cursor: no-drop;
+}
+
+.gheDangDat {
+    background-color: rgb(7, 128, 17);
+}
+
+.gheCuaUserHienTaiDat {
+    /* cho box shadow để nó nổi khối lên */
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.62);
+    border: 1px solid black;
+    background-color: rgb(235, 231, 231);
+    color: rgb(170, 170, 0);
+}
+
+.gheNguoiKhacDat {
+    @apply bg-blue-800
+}

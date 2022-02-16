@@ -1,0 +1,40 @@
+.filmCarousel .owl-prev,
+.filmCarousel .owl-next {
+    visibility: hidden;
+}
+
+.filmCarousel .owl-prev::after {
+    visibility: visible;
+    content: '<';
+    padding: 8px 16px;
+    background-color: #e2dbdb;
+    color: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-60px, -100%);
+    border-radius: 50%;
+}
+
+.filmCarousel .owl-next::after {
+    visibility: visible;
+    content: '>';
+    padding: 8px 16px;
+    background-color: #e2dbdb;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(60px, -100%);
+    border-radius: 50%;
+}
+
+.filmCarousel .owl-prev:hover:after,
+.filmCarousel .owl-next:hover:after {
+    background-color: #ddd;
+    color: black;
+}
+
+.activeButtonDC_SC {
+    @apply bg-gray-800 text-gray-100 !important;
+}

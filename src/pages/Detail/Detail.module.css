@@ -1,0 +1,7 @@
+.c100 {
+    background-color: transparent;
+}
+
+.c100:after {
+    background-color: transparent;
+}

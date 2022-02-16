@@ -1,0 +1,8 @@
+.spin-loading span {
+    font-size: 60px !important;
+}
+
+.spin-loading span i {
+    width: 27px !important;
+    height: 27px !important;
+}
